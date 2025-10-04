@@ -5,7 +5,7 @@ Users can create posts (“chirps”) and engage by adding comments — similar 
 
 <img width="1512" height="982" alt="Screenshot 2025-10-04 at 8 24 03 AM" src="https://github.com/user-attachments/assets/cf891b50-379f-4d82-b1f2-a71b070ab0c7" />
 
-## 🚀 Features
+## Features
 
 - ✍️ **User Authentication** – Sign up, sign in, and manage user sessions securely.  
 - 💬 **Post Creation** – Users can share short posts (“chirps”).  
@@ -13,7 +13,7 @@ Users can create posts (“chirps”) and engage by adding comments — similar 
 - 👤 **User Profiles** – View posts made by individual users.  
 - 🧱 **Responsive UI** – Clean and modern interface built with Laravel Breeze or Inertia.  
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** Laravel 11  
 - **Frontend:** Blade / Inertia.js (React)  
@@ -21,24 +21,24 @@ Users can create posts (“chirps”) and engage by adding comments — similar 
 - **Authentication:** Laravel Breeze or Jetstream  
 - **Styling:** Tailwind CSS and Daisy UI
 
-## ⚙️ Installation
+## Installation
 
 Follow these steps to get the app running locally:
 
-### 1️⃣ Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/danielsarkwa/laravel-chirper-app.git
 cd chirper
 ```
 
-### 2️⃣ Install dependencies
+### Install dependencies
 ```bash
 composer install
 npm install
 npm run dev
 ```
 
-### 3️⃣ Configure environment
+### Configure environment
 Copy .env.example to .env and update your environment variables:
 ```bash
 cp .env.example .env
@@ -46,12 +46,12 @@ php artisan key:generate
 ```
 Set up your database credentials in .env.
 
-### 4️⃣ Run migrations and seed data
+### Run migrations and seed data
 ```bash
 php artisan migrate --seed
 ```
 
-### 5️⃣ Start the development server
+### Start the development server
 ```bash
 composer run dev
 ```
